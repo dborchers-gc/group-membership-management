@@ -386,7 +386,7 @@ Once your application is created we need to grant the requested permissions to u
 
     1. On Azure DevOps left menu locate Pipelines menu click on 'Environments'.
     2. Click on 'New environments' button.
-    3. Fill in 'Name' which must follow this naming convention <SolutionAbbreviation>-<EnvironmentAbbreviation>
+    3. Fill in 'Name' which must follow this naming convention `<SolutionAbbreviation>`-`<EnvironmentAbbreviation>`
     4. Add a description (optional).
     5. Click on 'Create' button.
     6. Once created, locate and click on your environment.
