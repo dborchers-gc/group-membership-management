@@ -188,8 +188,8 @@ Once your application is created we need to grant the requested permissions to u
             ```
             git remote add upstream https://github.com/microsoftgraph/group-membership-management.git
             git fetch upstream
-            git checkout upstream/master -b `<name-of-your-branch-in-public-repo>`
-            git merge upstream/master
+            git checkout upstream/main -b `<name-of-your-branch-in-public-repo>`
+            git merge upstream/main
             git push --set-upstream origin <name-of-your-branch-in-public-repo> -f
             ```
         - another repository (let's call it `private`) that refers to `public` repository as a submodule:
@@ -370,6 +370,7 @@ Once your application is created we need to grant the requested permissions to u
             		                             -EnvironmentAbbreviation "<EnvironmentAbbreviation>" `
                                                  -OrganizationName "<OrganizationName>" `
                                                  -ProjectName "<ProjectName>" `
+						 -Clean $true `
             		                             -Verbose
 
             3. Follow the instructions in the screen.
